@@ -1,5 +1,5 @@
 # Optimus-VIRTUOSO
-Intelligent &amp; Efficient Optimus Piano Virtuoso
+Intelligent &amp; Efficient Optimus Music Virtuoso
 
 ***
 
