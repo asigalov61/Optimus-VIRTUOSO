@@ -88,7 +88,7 @@ print('Loading complete. Enjoy! :)')
 # %cd /content/Dataset/
 
 !wget 'https://github.com/asigalov61/Tegridy-MIDI-Dataset/raw/master/Tegridy-Piano-Violin-CC-BY-NC-SA.zip'
-!unzip -j '/content/Dataset/Tegridy-Piano-Violin-CC-BY-NC-SA.zip'
+!unzip '/content/Dataset/Tegridy-Piano-Violin-CC-BY-NC-SA.zip'
 !rm '/content/Dataset/Tegridy-Piano-Violin-CC-BY-NC-SA.zip'
 
 # %cd /content/
