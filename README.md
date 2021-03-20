@@ -1,5 +1,8 @@
 # Optimus-VIRTUOSO
-Intelligent &amp; Efficient Optimus Music Virtuoso
+
+## Intelligent &amp; Efficient Optimus Music Virtuoso
+
+### GPT2/GPT3-based Multi-Instrumental Music AI implementation
 
 ***
 
