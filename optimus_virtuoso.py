@@ -178,40 +178,25 @@ for f in tqdm.auto.tqdm(filez):
     fn1 = fn.split('.')[0]
 
     files_count += 1
-    TXT, melody, chords, melody_chords, txtc = TMIDI.Optimus_MIDI_TXT_Processor(f, chordify_TXT=chordify_input_MIDIs, output_MIDI_channels=encode_MIDI_channels, char_offset=chars_encoding_offset, dataset_MIDI_events_time_denominator=time_denominator, output_velocity=encode_velocities, MIDI_channel=desired_MIDI_channel_to_process, MIDI_patch=range(0, 127))
-    
-    if melody_conditioned_chords:
-      TXT_String += txtc
-    else:
-      TXT_String += TXT
-
+    TXT, melody, chords = TMIDI.Optimus_MIDI_TXT_Processor(f, chordify_TXT=chordify_input_MIDIs, output_MIDI_channels=encode_MIDI_channels, char_offset=chars_encoding_offset, dataset_MIDI_events_time_denominator=time_denominator, output_velocity=encode_velocities, MIDI_channel=desired_MIDI_channel_to_process, MIDI_patch=range(0, 127), melody_conditioned_encoding=melody_conditioned_chords)
+    TXT_String += TXT
     melody_list_f += melody
     chords_list_f += chords
 
     if add_transposed_dataset_by_this_many_pitches != 0:
 
-      TXT, melody, chords, melody_chords = TMIDI.Optimus_MIDI_TXT_Processor(f, chordify_TXT=chordify_input_MIDIs, output_MIDI_channels=encode_MIDI_channels, char_offset=chars_encoding_offset, dataset_MIDI_events_time_denominator=time_denominator, output_velocity=encode_velocities, MIDI_channel=desired_MIDI_channel_to_process, transpose_by=add_transposed_dataset_by_this_many_pitches, MIDI_patch=range(0, 127))
+      TXT, melody, chords = TMIDI.Optimus_MIDI_TXT_Processor(f, chordify_TXT=chordify_input_MIDIs, output_MIDI_channels=encode_MIDI_channels, char_offset=chars_encoding_offset, dataset_MIDI_events_time_denominator=time_denominator, output_velocity=encode_velocities, MIDI_channel=desired_MIDI_channel_to_process, transpose_by=add_transposed_dataset_by_this_many_pitches, MIDI_patch=range(0, 127), melody_conditioned_encoding=melody_conditioned_chords)
       TXT_String += TXT
       melody_list_f += melody
       chords_list_f += chords
-
-      if melody_conditioned_chords:
-        TXT_String += txtc
-      else:
-        TXT_String += TXT
 
     if add_transposed_and_flipped_dataset == True:
 
-      TXT, melody, chords, melody_chords = TMIDI.Optimus_MIDI_TXT_Processor(f, chordify_TXT=chordify_input_MIDIs, output_MIDI_channels=encode_MIDI_channels, char_offset=chars_encoding_offset, dataset_MIDI_events_time_denominator=time_denominator, output_velocity=encode_velocities, MIDI_channel=desired_MIDI_channel_to_process, transpose_by=-12, MIDI_patch=range(0, 127), flip=True)
+      TXT, melody, chords = TMIDI.Optimus_MIDI_TXT_Processor(f, chordify_TXT=chordify_input_MIDIs, output_MIDI_channels=encode_MIDI_channels, char_offset=chars_encoding_offset, dataset_MIDI_events_time_denominator=time_denominator, output_velocity=encode_velocities, MIDI_channel=desired_MIDI_channel_to_process, transpose_by=-12, MIDI_patch=range(0, 127), flip=True, melody_conditioned_encoding=melody_conditioned_chords)
       TXT_String += TXT
       melody_list_f += melody
       chords_list_f += chords
 
-      if melody_conditioned_chords:
-        TXT_String += txtc
-      else:
-        TXT_String += TXT
-  
   except KeyboardInterrupt:
     print('Saving current progress and quitting...')
     break  
@@ -257,12 +242,12 @@ TMIDI.Tegridy_Pickle_File_Writer(MusicDataset, file_name_to_output_dataset_to)
 #@title Create/prepare GPT2 model and load the dataset
 
 full_path_to_training_text_file = "/content/Optimus-VIRTUOSO-Music-Dataset.txt" #@param {type:"string"}
-model_attention_span_in_tokens = 512 #@param {type:"slider", min:0, max:1024, step:16}
+model_attention_span_in_tokens = 256 #@param {type:"slider", min:0, max:1024, step:16}
 model_embed_size = 256 #@param {type:"slider", min:0, max:1024, step:64}
-number_of_heads = 16 #@param {type:"slider", min:1, max:16, step:1}
+number_of_heads = 8 #@param {type:"slider", min:1, max:16, step:1}
 number_of_layers = 6 #@param {type:"slider", min:1, max:16, step:1}
-number_of_training_epochs = 1 #@param {type:"slider", min:1, max:5, step:1}
-training_batch_size = 32 #@param {type:"slider", min:0, max:160, step:2}
+number_of_training_epochs = 5 #@param {type:"slider", min:1, max:5, step:1}
+training_batch_size = 108 #@param {type:"slider", min:4, max:1024, step:8}
 number_of_dataloader_threads = 4 #@param {type:"slider", min:1, max:64, step:1}
 model_learning_rate = 6e-4 #@param {type:"number"}
 checkpoint_full_path = "" #@param {type:"string"}
@@ -327,8 +312,8 @@ model.eval()
 
 print('Optimus VIRTUOSO Model Generator')
 print('Starting up...')
-number_of_tokens_to_generate = 4096 #@param {type:"slider", min:0, max:32768, step:128}
-creativity_temperature = 0.4 #@param {type:"slider", min:0.05, max:4, step:0.05}
+number_of_tokens_to_generate = 2048 #@param {type:"slider", min:0, max:32768, step:128}
+creativity_temperature = 0.8 #@param {type:"slider", min:0.05, max:4, step:0.05}
 top_k_prob = 128 #@param {type:"slider", min:0, max:128, step:1}
 input_prompt = "SONG=" #@param {type:"string"}
 
