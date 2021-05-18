@@ -4,6 +4,8 @@
 
 ### GPT2/GPT3-based Multi-Instrumental Music AI implementation
 
+### Now with special Char Token TXT encoding
+
 ***
 
 What are you waiting for?!? Try it out!!! :)
