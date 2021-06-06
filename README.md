@@ -12,7 +12,7 @@ What are you waiting for?!? Try it out!!! :)
 
 [![Open In Colab][colab-badge]][colab-notebook]
 
-[colab-notebook]: <https://colab.research.google.com/github/asigalov61/Optimus-VIRTUOSO/blob/main/Optimus_VIRTUOSO.ipynb>
+[colab-notebook]: <https://colab.research.google.com/github/asigalov61/Optimus-VIRTUOSO/blob/main/[ORIGINAL]_Optimus_VIRTUOSO.ipynb>
 [colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
 ***
 
