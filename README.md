@@ -18,8 +18,6 @@ What are you waiting for?!? Try it out!!! :)
 
 https://soundcloud.com/aleksandr-sigalov-61/sets/exclusive-preview-optimus-virtuoso
 
-https://youtu.be/1uyZhnQoTIc
-
 ***
 
 Project Los Angeles
