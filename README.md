@@ -4,7 +4,7 @@
 
 ### GPT2/GPT3-based Multi-Instrumental Music AI implementation
 
-### Now with special Char Token TXT encoding
+### Now featuring multi-instrumental MuseNet TXT encoding 
 
 ***
 
