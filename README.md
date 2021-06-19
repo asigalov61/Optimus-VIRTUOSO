@@ -24,7 +24,7 @@ https://soundcloud.com/aleksandr-sigalov-61/sets/exclusive-preview-optimus-virtu
 
 1) Multi-instrumental MIDI implementation
 
-2) Human-readable TXT Encoding with only 5 (five) UTF-8 chars per any MIDI note (5 x 4bytes/char == 20 bytes)
+2) Human-readable TXT Encoding with only 3 (three) to 5 (five) UTF-8 chars per any MIDI note (5 x 4bytes/char == 20 bytes max)
 
 3) MuseNet-like MIDI events representation
 
