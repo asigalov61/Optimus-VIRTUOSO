@@ -20,6 +20,24 @@ https://soundcloud.com/aleksandr-sigalov-61/sets/exclusive-preview-optimus-virtu
 
 ***
 
-Project Los Angeles
+### Some specs/stats:
 
-Tegridy Code 2021
+1) Multi-instrumental MIDI implementation
+
+2) Human-readable TXT Encoding with only 5 (five) UTF-8 chars per any MIDI note (5 x 4bytes/char == 20 bytes)
+
+3) MuseNet-like MIDI events representation
+
+4) Song-title MIDI events representation
+
+6) Single-epoch/one-shot training/learning
+
+7) GPT3 tweaks/improvements
+
+5) Much more...
+
+***
+
+#### Project Los Angeles
+
+#### Tegridy Code 2021
