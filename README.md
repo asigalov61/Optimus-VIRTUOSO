@@ -28,7 +28,7 @@ https://soundcloud.com/aleksandr-sigalov-61/sets/exclusive-preview-optimus-virtu
 
 3) MuseNet-like MIDI events representation
 
-4) Song-title MIDI events representation
+4) Composition-level MIDI events representation
 
 6) Single-epoch/one-shot training/learning
 
