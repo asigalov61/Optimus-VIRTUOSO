@@ -1,10 +1,8 @@
 # Optimus-VIRTUOSO
 
-## Intelligent &amp; Efficient Optimus Music Virtuoso
+## GPT2/GPT3-based Multi-Instrumental MIDI Music AI implementation
 
-### GPT2/GPT3-based Multi-Instrumental Music AI implementation
-
-### Now featuring TMIDIX full multi-instrumental MuseNet TXT encoding 
+### Now featuring TMIDIX improved replica of the MuseNet multi-instrumental TXT encoding 
 
 ***
 
