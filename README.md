@@ -2,7 +2,7 @@
 
 ## GPT2/GPT3-based Multi-Instrumental MIDI Music AI implementation
 
-### Now featuring TMIDIX improved replica of the MuseNet multi-instrumental TXT encoding 
+### Now featuring TMIDIX improved reproduction of the MuseNet multi-instrumental TXT encoding 
 
 ***
 
@@ -33,6 +33,16 @@ https://soundcloud.com/aleksandr-sigalov-61/sets/exclusive-preview-optimus-virtu
 7) GPT3 tweaks/improvements
 
 5) Much more...
+
+***
+
+### FAQ:
+
+Q) What Optimus-VIRTUOSO will do for me?
+A) Optimus-VIRTUOSO will virtuosly play you any MIDI music you will train it upon.
+
+Q) What Optimus-VIRTUOSO won't do for me?
+A) Optimus-VIRTUOSO won't compose original music for you because it is a regular AI implementation, not GAI.
 
 ***
 
