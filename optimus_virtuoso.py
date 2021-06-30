@@ -493,8 +493,6 @@ files.download(fname + '.txt')
 
 #@title Convert to MIDI from TXT (w/Tegridy MIDI-TXT Processor)
 
-#@markdown Standard MIDI timings are 400/120(80)
-
 #@markdown Please note that only the first generated composition is being converted to MIDI by default. Please check the output TXT file for extra generated compositions.
 number_of_ticks_per_quarter = 500 #@param {type:"slider", min:50, max:1000, step:50}
 dataset_time_denominator = 1 #@param {type:"slider", min:1, max:20, step:1}
