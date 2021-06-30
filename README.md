@@ -13,7 +13,7 @@ What are you waiting for?!? Try it out!!! :)
 [colab-notebook]: <https://colab.research.google.com/github/asigalov61/Optimus-VIRTUOSO/blob/main/Optimus_VIRTUOSO.ipynb>
 [colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
 
-NEW: Optimus-VIRTUOSO compound music composer
+NEW: Optimus-VIRTUOSO Compound Music Composer
 
 [![Open In Colab][colab-badge1]][colab-notebook1]
 
@@ -60,7 +60,7 @@ A) Optimus-VIRTUOSO can't compose fully original music for you because it is a r
 
 Q) Is there any way to compose original music with Optimus-VIRTUOSO?
 
-A) Yes! Try Optimus-VIRTUOSO composer! It can compose compound music for you, similar to how MuseNet does it. It is not going to be fully original but it is not going to be a complete plagiarism either :)
+A) Yes! Try Optimus-VIRTUOSO Composer! It can compose compound music for you, similar to how MuseNet does it. It is not going to be fully original but it is not going to be a complete plagiarism either :)
 
 ***
 
