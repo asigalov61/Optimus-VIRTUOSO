@@ -58,6 +58,12 @@ A) Optimus-VIRTUOSO won't compose original music for you because it is a regular
 
 ***
 
+Q) Is there any way to compose original music with Optimus-VIRTUOSO?
+
+A) Yes! Try Optimus-VIRTUOSO composer! It can compose compound music for you, similar to how MuseNet does it. It is not going to be fully original but it is not going to be a complete plagiarism either :)
+
+***
+
 #### Project Los Angeles
 
 #### Tegridy Code 2021
