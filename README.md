@@ -46,15 +46,15 @@ https://soundcloud.com/aleksandr-sigalov-61/sets/exclusive-preview-optimus-virtu
 
 ### FAQ:
 
-Q) What Optimus-VIRTUOSO will do for me?
+Q) What Optimus-VIRTUOSO can do for me?
 
-A) Optimus-VIRTUOSO will virtuosly play you any MIDI music you will train it upon.
+A) Optimus-VIRTUOSO can virtuosly play you any MIDI music you will train it upon.
 
 ***
 
-Q) What Optimus-VIRTUOSO won't do for me?
+Q) What Optimus-VIRTUOSO can't do for me?
 
-A) Optimus-VIRTUOSO won't compose original music for you because it is a regular AI, not AGI implementation.
+A) Optimus-VIRTUOSO can't compose fully original music for you because it is a regular Music AI (not AGI) implementation.
 
 ***
 
