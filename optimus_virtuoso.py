@@ -60,7 +60,6 @@ print('Loading TMIDIX module...')
 os.chdir('/content/tegridy-tools/tegridy-tools')
 import TMIDIX
 
-print('Loading minGPT module...')
 os.chdir('/content/tegridy-tools/tegridy-tools')
 from minGPT import *
 
@@ -451,7 +450,7 @@ model.eval()
 
 #@markdown I.e. SONG=Relax_with_900_notes
 
-#@markdown 3) Self-continuation option overrides the SONG input prompt. Self-continuation is by random 300 tokens (~100 notes) from the dataset
+#@markdown 4) Self-continuation option overrides the SONG input prompt. Self-continuation is by random 300 tokens (~100 notes) from the dataset
 
 print('Optimus VIRTUOSO Model Generator')
 print('Starting up...')
@@ -497,7 +496,7 @@ files.download(fname + '.txt')
 #@markdown Standard MIDI timings are 400/120(80)
 
 #@markdown Please note that only the first generated composition is being converted to MIDI by default. Please check the output TXT file for extra generated compositions.
-number_of_ticks_per_quarter = 400 #@param {type:"slider", min:10, max:500, step:10}
+number_of_ticks_per_quarter = 500 #@param {type:"slider", min:50, max:1000, step:50}
 dataset_time_denominator = 1 #@param {type:"slider", min:1, max:20, step:1}
 melody_conditioned_encoding = False
 encoding_has_MIDI_channels = False #@param {type:"boolean"}
