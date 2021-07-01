@@ -13,6 +13,8 @@ What are you waiting for?!? Try it out!!! :)
 [colab-notebook]: <https://colab.research.google.com/github/asigalov61/Optimus-VIRTUOSO/blob/main/Optimus_VIRTUOSO.ipynb>
 [colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
 
+***
+
 NEW: Optimus-VIRTUOSO Compound Music Composer
 
 [![Open In Colab][colab-badge1]][colab-notebook1]
@@ -21,6 +23,8 @@ NEW: Optimus-VIRTUOSO Compound Music Composer
 [colab-badge1]: <https://colab.research.google.com/assets/colab-badge.svg>
 
 ***
+
+### SoundCloud:
 
 https://soundcloud.com/aleksandr-sigalov-61/sets/exclusive-preview-optimus-virtuoso
 
