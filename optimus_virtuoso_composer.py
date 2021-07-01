@@ -165,9 +165,9 @@ if self_continuation:
     with open(full_path_to_training_text_file) as f:
       dataset = f.read()
 
-    idx = secrets.randbelow(len(dataset))
+    idx = secrets.randbelow(len(dataset)-256)
     input_prompt = 'SONG=Self-Continuation' + chr(10)
-    input_prompt += dataset[idx:idx+300]
+    input_prompt += dataset[idx:idx+256]
 
 completion = Generate(model,
                       train_dataset,
