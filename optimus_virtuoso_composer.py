@@ -317,7 +317,7 @@ plt.title(fn1)
 FluidSynth("/usr/share/sounds/sf2/FluidR3_GM.sf2", 16000).midi_to_audio(str(fname + '.mid'), str(fname + '.wav'))
 Audio(str(fname + '.wav'), rate=16000)
 
-"""# STEP 2: Generate continuation"""
+"""# STEP 2: Continuation"""
 
 #@title Generate continuation
 
@@ -394,6 +394,8 @@ plt.title(fn1)
 
 FluidSynth("/usr/share/sounds/sf2/FluidR3_GM.sf2", 16000).midi_to_audio(str(fname2 + '.mid'), str(fname2 + '.wav'))
 Audio(str(fname2 + '.wav'), rate=16000)
+
+"""# STEP 3: Final composition"""
 
 #@title (STEP 3) Add last continuation to the final composition
 
@@ -524,6 +526,8 @@ if completion2 != '':
 
   FluidSynth("/usr/share/sounds/sf2/FluidR3_GM.sf2", 16000).midi_to_audio(str(fname1 + '.mid'), str(fname1 + '.wav'))
   Audio(str(fname1 + '.wav'), rate=16000)
+
+"""# STEP 4: Download the result"""
 
 #@title Download the final composition
 print('Downloading your composition now...')
