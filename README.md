@@ -15,7 +15,7 @@ What are you waiting for?!? Try it out!!! :)
 
 ***
 
-NEW: Optimus-VIRTUOSO Compound Music Composer
+NEW: Optimus-VIRTUOSO Compound Music Composer with custom MIDI option
 
 [![Open In Colab][colab-badge1]][colab-notebook1]
 
