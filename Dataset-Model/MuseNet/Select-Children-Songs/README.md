@@ -1,5 +1,7 @@
 Multi-instrumental model with drums
 
+This is a full encoding model with velocities and MIDI channels
+
 MuseNet encoding + perfect timings + Named Select Tegridy Children Songs MIDI dataset
 
 512 attn x 512 embed x 8 heads x 6 layers
