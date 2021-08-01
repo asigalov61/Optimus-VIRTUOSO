@@ -407,6 +407,8 @@ if completion3 != '' and custom_prime != '':
   completion2 = completion3 + completion1[1024:]
   completion3 = ''
 
+completion2 = 'SONG=Continuation' + chr(10) + completion2
+
 # print('Done!')
 # print('Saving to', str(fname + '.txt'))
 with open(fname1 + '.txt', "w") as text_file:
@@ -433,7 +435,7 @@ output_list, song_name = TMIDIX.Optimus_TXT_to_Notes_Converter(completion2,
 
 # print('Converting Song to MIDI...')
 
-output_signature = 'Optimus VIRTUOSO'
+output_signature = 'Optimus VIRTUOSO Composer'
 
 detailed_stats = TMIDIX.Tegridy_SONG_to_MIDI_Converter(output_list,
                                                       output_signature = output_signature,  
