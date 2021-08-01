@@ -399,7 +399,7 @@ Audio(str(fname2 + '.wav'), rate=16000)
 #@markdown NOTE: DO NOT REPEAT THIS STEP until you have generated the next continuation block in STEP 2
 
 if completion2 == '':
-  completion2 = completion1
+  completion2 = 'SONG=Continuation' + chr(10) + completion1
 else:
   completion2 += completion1[-1024:]
 
@@ -407,7 +407,6 @@ if completion3 != '' and custom_prime != '':
   completion2 = completion3 + completion1[1024:]
   completion3 = ''
 
-completion2 = 'SONG=Continuation' + chr(10) + completion2
 
 # print('Done!')
 # print('Saving to', str(fname + '.txt'))
