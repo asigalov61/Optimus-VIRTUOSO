@@ -149,6 +149,7 @@ PlotPositionalEmbeddings(model, model_attention_span_in_tokens)
 #@title (BEST) Self-continuation from the dataset
 
 #@markdown NOTE: You can repeat this step as many times as you like until you find the right seed that you like
+try_to_start_with_intro = True #@param {type:"boolean"}
 
 completion = ''
 completion1 = ''
@@ -158,8 +159,8 @@ completion3 = ''
 print('Optimus VIRTUOSO Model Generator')
 # print('Starting up...')
 number_of_tokens_to_generate = 1024
-creativity_temperature = 1
-top_k_prob = 64
+creativity_temperature = 0.8
+top_k_prob = 4
 input_prompt = "SONG="
 self_continuation = True
 
@@ -170,8 +171,12 @@ if self_continuation:
       dataset = f.read()
 
     idx = secrets.randbelow(len(dataset)-256)
-    input_prompt = 'SONG=Self-Continuation' + chr(10)
-    input_prompt += dataset[idx:idx+256]
+    
+    if try_to_start_with_intro:
+      input_prompt = 'SONG='
+    else:
+      input_prompt = 'SONG=Self-Continuation' + chr(10)
+      input_prompt += dataset[idx:idx+256]
 
 completion = Generate(model,
                       train_dataset,
@@ -324,8 +329,8 @@ Audio(str(fname + '.wav'), rate=16000)
 print('Optimus VIRTUOSO Model Generator')
 # print('Starting up...')
 number_of_tokens_to_generate = 1024
-creativity_temperature = 1
-top_k_prob = 64
+creativity_temperature = 0.8
+top_k_prob = 4
 if completion2 == '':
   input_prompt = completion
 else:
