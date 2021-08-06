@@ -159,8 +159,8 @@ completion3 = ''
 print('Optimus VIRTUOSO Model Generator')
 # print('Starting up...')
 number_of_tokens_to_generate = 1024
-creativity_temperature = 0.8
-top_k_prob = 4
+creativity_temperature = 1
+top_k_prob = 64
 input_prompt = "SONG="
 self_continuation = True
 
@@ -329,8 +329,8 @@ Audio(str(fname + '.wav'), rate=16000)
 print('Optimus VIRTUOSO Model Generator')
 # print('Starting up...')
 number_of_tokens_to_generate = 1024
-creativity_temperature = 0.8
-top_k_prob = 4
+creativity_temperature = 1
+top_k_prob = 64
 if completion2 == '':
   input_prompt = completion
 else:
