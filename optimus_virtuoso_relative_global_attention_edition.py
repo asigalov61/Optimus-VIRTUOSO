@@ -207,6 +207,7 @@ for f in tqdm(filez):
       TXT_String += TXT
       melody_list_f += melody
       chords_list_f += chords
+      INTS_f.extend(INTS)
       gfiles += 1
 
     if add_transposed_and_flipped_dataset == True:
@@ -215,6 +216,7 @@ for f in tqdm(filez):
       TXT_String += TXT
       melody_list_f += melody
       chords_list_f += chords
+      INTS_f.extend(INTS)
       gfiles += 1
 
   except KeyboardInterrupt:
@@ -250,7 +252,7 @@ try:
     f.close
 
   # Dataset
-  MusicDataset = [chords_list_f, melody_list_f]
+  MusicDataset = [chords_list_f, melody_list_f, INTS_f]
 
   # Writing dataset to pickle file
   TMIDIX.Tegridy_Any_Pickle_File_Writer(MusicDataset, file_name_to_output_dataset_to)
@@ -264,6 +266,7 @@ except:
   print('=' * 70)
 
 #@title Load processed INTs datasets
+number_of_batches = 2 #@param {type:"slider", min:2, max:32, step:2}
 
 print('=' * 50)
 print('Prepping INTs datasets...')
@@ -288,6 +291,7 @@ test_dataset = EPianoDataset(test_list, max_seq)
 print('=' * 50)
 
 print('Loading INTs datasets...')
+batch_size = number_of_batches
 train_loader = DataLoader(train_dataset, batch_size=batch_size, num_workers=n_workers, shuffle=True)
 val_loader = DataLoader(val_dataset, batch_size=batch_size, num_workers=n_workers)
 test_loader = DataLoader(test_dataset, batch_size=batch_size, num_workers=n_workers)
@@ -299,24 +303,32 @@ print('Max INT in the dataset', max(train_data))
 print('Min INT in the dataset', min(train_data))
 print('=' * 50)
 
-#@title Check datasets shapes
+print('Checking datasets shapes...')
+print('=' * 50)
+
 print('Train loader')
 for x, tgt in train_loader:
     print(f'X shape: {x.shape}')
     print(f'Target shape: {tgt.shape}')
     break
+print('=' * 50)
 
 print('Validation loader')
 for x, tgt in val_loader:
     print(f'X shape: {x.shape}')
     print(f'Target shape: {tgt.shape}')
     break
+print('=' * 50)
 
 print('Test loader')
 for x, tgt in test_loader:
     print(f'X shape: {x.shape}')
     print(f'Target shape: {tgt.shape}')
     break
+print('=' * 50)
+
+print('Done! Enjoy! :)')
+print('=' * 50)
 
 """# Train the model"""
 
@@ -387,6 +399,33 @@ for epoch in range(0, epochs):
 tr_loss_list = [item for sublist in loss_train for item in sublist]
 plt.plot([i for i in range(len(tr_loss_list))] ,tr_loss_list, 'b')
 plt.savefig('/content/training-loss.png')
+
+"""# Save or load/reload the model"""
+
+#@title Save the model
+
+print('Saving the model...')
+full_path_to_model_checkpoint = "/content/Optimus-VIRTUOSO-Trained-Model.pth" #@param {type:"string"}
+torch.save(model.state_dict(), full_path_to_model_checkpoint)
+print('Done!')
+
+#@title Load/re-load the model
+full_path_to_model_checkpoint = "/content/Optimus-VIRTUOSO-Trained-Model.pth" #@param {type:"string"}
+
+print('Loading the model...')
+config = GPTConfig(VOCAB_SIZE, 
+                   max_seq,
+                   dim_feedforward=dim_feedforward,
+                   n_layer=6, 
+                   n_head=8, 
+                   n_embd=512,
+                   enable_rpr=True,
+                   er_len=max_seq)
+
+model = GPT(config).to(get_device())
+
+model.load_state_dict(torch.load(full_path_to_model_checkpoint))
+print('Done!')
 
 """# Generate music"""
 
