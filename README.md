@@ -2,9 +2,9 @@
 
 ## GPT2/GPT3-based Multi-Instrumental MIDI Music AI implementation
 
-***
-
 ### Now featuring TMIDIX improved reproduction of the MuseNet multi-instrumental TXT encoding 
+
+***
 
 What are you waiting for?!? Try it out!!! :)
 
@@ -21,6 +21,15 @@ NEW: Optimus-VIRTUOSO Compound Music Composer with custom MIDI option
 
 [colab-notebook1]: <https://colab.research.google.com/github/asigalov61/Optimus-VIRTUOSO/blob/main/Optimus_VIRTUOSO_Composer.ipynb>
 [colab-badge1]: <https://colab.research.google.com/assets/colab-badge.svg>
+
+***
+
+BONUS: Optimus VIRTUOSO: Relative Global Attention Edition
+
+[![Open In Colab][colab-badge]][colab-notebook]
+
+[colab-notebook]: <https://colab.research.google.com/github/asigalov61/Optimus-VIRTUOSO/blob/main/Optimus_VIRTUOSO_Relative_Global_Attention_Edition.ipynb>
+[colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
 
 ***
 
