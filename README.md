@@ -2,9 +2,9 @@
 
 ## GPT2/GPT3-based Multi-Instrumental MIDI Music AI implementation
 
-### Now featuring TMIDIX improved reproduction of the MuseNet multi-instrumental TXT encoding 
-
 ***
+
+### Now featuring TMIDIX improved reproduction of the MuseNet multi-instrumental TXT encoding 
 
 What are you waiting for?!? Try it out!!! :)
 
