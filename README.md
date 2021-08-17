@@ -26,10 +26,10 @@ NEW: Optimus-VIRTUOSO Compound Music Composer with custom MIDI option
 
 BONUS: Optimus VIRTUOSO: Relative Global Attention Edition
 
-[![Open In Colab][colab-badge]][colab-notebook]
+[![Open In Colab][colab-badge2]][colab-notebook2]
 
-[colab-notebook]: <https://colab.research.google.com/github/asigalov61/Optimus-VIRTUOSO/blob/main/Optimus_VIRTUOSO_Relative_Global_Attention_Edition.ipynb>
-[colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
+[colab-notebook2]: <https://colab.research.google.com/github/asigalov61/Optimus-VIRTUOSO/blob/main/Optimus_VIRTUOSO_Relative_Global_Attention_Edition.ipynb>
+[colab-badge2]: <https://colab.research.google.com/assets/colab-badge.svg>
 
 ***
 
