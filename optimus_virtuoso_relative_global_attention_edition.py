@@ -438,7 +438,7 @@ encoding_has_MIDI_channels = False
 encoding_has_velocities = False
 simulate_velocity = True #@param {type:"boolean"}
 save_only_first_composition = True
-chars_encoding_offset_used_for_dataset = 33 #@param {type:"number"}
+chars_encoding_offset_used_for_dataset = 33
 
 fname = '/content/Optimus-VIRTUOSO-Composition'
 
@@ -450,7 +450,7 @@ song_name = 'RGA Composition'
 model.eval()
 idx = secrets.randbelow(len(train_data))
 rand_seq = model.generate(torch.Tensor(train_data[idx:idx+120]), target_seq_length=number_of_tokens_to_generate)
-out = train_data[idx:idx+120] + rand_seq[0].cpu().numpy().tolist()
+out = rand_seq[0].cpu().numpy().tolist()
 
 song = []
 sng = []
