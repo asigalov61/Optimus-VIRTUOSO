@@ -30,7 +30,7 @@ WARNING: This complete implementation is a functioning model of the Artificial I
 
 ***
 
-# Setup Environment, clone needed repos, and install all required dependencies
+# Setup Environment
 """
 
 #@title nvidia-smi gpu check
@@ -430,15 +430,14 @@ print('Done!')
 
 #@title Generate and download a MIDI file
 
-#@markdown Please note that only the first generated composition is being converted to MIDI by default. Please check the output TXT file for extra generated compositions.
 number_of_tokens_to_generate = 1024 #@param {type:"slider", min:8, max:2048, step:8}
 number_of_ticks_per_quarter = 500 #@param {type:"slider", min:50, max:1000, step:50}
-dataset_time_denominator = 1 #@param {type:"slider", min:1, max:20, step:1}
+dataset_time_denominator = 10
 melody_conditioned_encoding = False
-encoding_has_MIDI_channels = False #@param {type:"boolean"}
-encoding_has_velocities = False #@param {type:"boolean"}
+encoding_has_MIDI_channels = False 
+encoding_has_velocities = False
 simulate_velocity = True #@param {type:"boolean"}
-save_only_first_composition = True #@param {type:"boolean"}
+save_only_first_composition = True
 chars_encoding_offset_used_for_dataset = 33 #@param {type:"number"}
 
 fname = '/content/Optimus-VIRTUOSO-Composition'
@@ -451,12 +450,11 @@ song_name = 'RGA Composition'
 model.eval()
 idx = secrets.randbelow(len(train_data))
 rand_seq = model.generate(torch.Tensor(train_data[idx:idx+120]), target_seq_length=number_of_tokens_to_generate)
-out = rand_seq[0].cpu().numpy().tolist()
+out = train_data[idx:idx+120] + rand_seq[0].cpu().numpy().tolist()
 
 song = []
 sng = []
 for o in out:
-#for o in train_data:
   if o != 10:
     sng.append(o)
   else:
