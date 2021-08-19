@@ -431,6 +431,7 @@ print('Done!')
 #@title Generate and download a MIDI file
 
 number_of_tokens_to_generate = 1024 #@param {type:"slider", min:8, max:2048, step:8}
+use_random_primer = False #@param {type:"boolean"}
 number_of_ticks_per_quarter = 500 #@param {type:"slider", min:50, max:1000, step:50}
 dataset_time_denominator = 10
 melody_conditioned_encoding = False
@@ -448,42 +449,69 @@ output_signature = 'Optimus VIRTUOSO'
 song_name = 'RGA Composition'
 
 model.eval()
-idx = secrets.randbelow(len(train_data))
-rand_seq = model.generate(torch.Tensor(train_data[idx:idx+120]), target_seq_length=number_of_tokens_to_generate)
-out = rand_seq[0].cpu().numpy().tolist()
 
-song = []
-sng = []
-for o in out:
-  if o != 10:
-    sng.append(o)
-  else:
-    if len(sng) == 3:
-      song.append(sng)
-    sng = []
+if use_random_primer:
+  sequence = [random.randint(10, 387) for i in range(64)]
+  idx = secrets.randbelow(len(sequence))
+  rand_seq = model.generate(torch.Tensor(sequence[idx:idx+120]), target_seq_length=number_of_tokens_to_generate)
+  out = rand_seq[0].cpu().numpy().tolist()
 
-char_offset = 33
-song_f = []
-time = 0
-for s in song:
+else:
+  out = []
   
-  song_f.append(['note', (abs(time)) * 10, (s[1]-char_offset) * 10, 0, s[2]-char_offset, s[2]-char_offset])
-  time += s[0] - char_offset
+  try:
+    idx = secrets.randbelow(len(train_data))
+    rand_seq = model.generate(torch.Tensor(train_data[idx:idx+120]), target_seq_length=number_of_tokens_to_generate)
+    out = rand_seq[0].cpu().numpy().tolist()
+  
+  except:
+    print('=' * 50)
+    print('Error! Try random priming instead!')
+    print('Shutting down...')
+    print('=' * 50)
 
-detailed_stats = TMIDIX.Tegridy_SONG_to_MIDI_Converter(song_f,
-                                                      output_signature = output_signature,  
-                                                      output_file_name = fname, 
-                                                      track_name=song_name, 
-                                                      number_of_ticks_per_quarter=number_of_ticks_per_quarter)
+if len(out) != 0:
+  song = []
+  sng = []
+  for o in out:
+    if o != 10:
+      sng.append(o)
+    else:
+      if len(sng) == 3:
+        song.append(sng)
+      sng = []
 
-print('Done!')
+  char_offset = 33
+  song_f = []
+  time = 0
+  for s in song:
+    
+    song_f.append(['note', (abs(time)) * 10, (s[1]-char_offset) * 10, 0, s[2]-char_offset, s[2]-char_offset])
+    time += s[0] - char_offset
 
-print('Downloading your composition now...')
-from google.colab import files
-files.download(fname + '.mid')
+  detailed_stats = TMIDIX.Tegridy_SONG_to_MIDI_Converter(song_f,
+                                                        output_signature = output_signature,  
+                                                        output_file_name = fname, 
+                                                        track_name=song_name, 
+                                                        number_of_ticks_per_quarter=number_of_ticks_per_quarter)
 
-print('Detailed MIDI stats:')
-detailed_stats
+  print('Done!')
+
+  print('Downloading your composition now...')
+  from google.colab import files
+  files.download(fname + '.mid')
+
+  print('=' * 70)
+  print('Detailed MIDI stats:')
+  for key, value in detailed_stats.items():
+        print('=' * 70)
+        print(key, '|', value)
+
+  print('=' * 70)
+
+else:
+  print('Models output is empty! Check the code...')
+  print('Shutting down...')
 
 """# Plot and listen to the last output"""
 
