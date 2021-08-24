@@ -24,7 +24,7 @@ For non-auto-regressive token-based approach see Optimus VIRTUOSO RGA Edition be
 
 This is basically an improved reproduction of OpenAI's MuseNet. With large enough dataset, you should get comparable(or better) results.
 
-And no, you do not really need Sparce Attention/Transformers here unless you want to train on gigabytes of data
+And no, you do not really need Sparse Attention/Transformers here unless you want to train on gigabytes of data
 
 [![Open In Colab][colab-badge1]][colab-notebook1]
 
