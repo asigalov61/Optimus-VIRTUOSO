@@ -15,7 +15,7 @@ What are you waiting for?!? Try it out!!! :)
 
 ***
 
-ORIGINAL COMPOSITION: Optimus-VIRTUOSO Compound Music Composer with custom MIDI option
+### ORIGINAL COMPOSITION: Optimus-VIRTUOSO Compound Music Composer with custom MIDI option
 
 This is basically an improved reproduction of OpenAI's MuseNet. With large enough dataset, you should get comparable(or better) results.
 
@@ -28,7 +28,7 @@ And no, you do not really need Sparce Attention/Transformers here unless you wan
 
 ***
 
-BEST OF BOTH WORLDS: Optimus VIRTUOSO: Relative Global Attention Edition
+### BEST OF BOTH WORLDS: Optimus VIRTUOSO: Relative Global Attention Edition
 
 GPT2 + RPR = AWESOME
 
