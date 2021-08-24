@@ -14,7 +14,7 @@ What are you waiting for?!? Try it out!!! :)
 [colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
 
 This is an auto-regressive implementation (char-based approach) which has its benefits but also drawbacks.
-However, this is the most interesting and fastest approach because it allows to do many different things.
+However, this is the most interesting and fastest implementation because it allows to do many different things.
 
 For non-auto-regressive token-based approach see Optimus VIRTUOSO RGA Edition below.
 
