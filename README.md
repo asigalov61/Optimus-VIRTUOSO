@@ -15,7 +15,11 @@ What are you waiting for?!? Try it out!!! :)
 
 ***
 
-NEW: Optimus-VIRTUOSO Compound Music Composer with custom MIDI option
+ORIGINAL COMPOSITION: Optimus-VIRTUOSO Compound Music Composer with custom MIDI option
+
+This is basically an improved reproduction of OpenAI's MuseNet. With large enough dataset, you should get comparable(or better) results.
+
+And no, you do not really need Sparce Attention/Transformers here unless you want to train on gigabytes of data
 
 [![Open In Colab][colab-badge1]][colab-notebook1]
 
@@ -24,7 +28,11 @@ NEW: Optimus-VIRTUOSO Compound Music Composer with custom MIDI option
 
 ***
 
-BONUS: Optimus VIRTUOSO: Relative Global Attention Edition
+BEST OF BOTH WORLDS: Optimus VIRTUOSO: Relative Global Attention Edition
+
+GPT2 + RPR = AWESOME
+
+If OpenAi's MuseNet and Google Piano Transformer would have a baby, that would be it :) 
 
 [![Open In Colab][colab-badge2]][colab-notebook2]
 
@@ -53,7 +61,9 @@ https://soundcloud.com/aleksandr-sigalov-61/sets/exclusive-preview-optimus-virtu
 
 7) GPT3 tweaks/improvements
 
-5) Much more...
+8) Relative Global Attention (RPR)
+
+9) Much much more...
 
 ***
 
