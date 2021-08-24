@@ -35,9 +35,9 @@ And no, you do not really need Sparce Attention/Transformers here unless you wan
 
 ### BEST OF BOTH WORLDS: Optimus VIRTUOSO: Relative Global Attention Edition
 
-GPT2 + RPR = AWESOME
+GPT2 + RGA(RPR) = AWESOME
 
-If OpenAi's MuseNet and Google Piano Transformer would have a baby, that would be it :) 
+If OpenAi's MuseNet and Google Piano Transformer could have a baby, that would be it :) 
 
 [![Open In Colab][colab-badge2]][colab-notebook2]
 
