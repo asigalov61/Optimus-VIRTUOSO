@@ -17,9 +17,9 @@
 ### ORIGINAL BASE-LINE IMPLEMENTATION:
 
 This is an auto-regressive implementation (char-based approach) which has its benefits but also drawbacks
-However, this is the most interesting and fastest implementation because it allows to do many different things
+However, this is the most interesting, flexible, and versatile implementation that allows to try many different things
 
-For SOTA, non-auto-regressive, token-based approach see Optimus VIRTUOSO: Relative Global Attention Edition below
+For SOTA, non-auto-regressive, token-based implementation see Optimus VIRTUOSO: Relative Global Attention Edition below
 
 [![Open In Colab][colab-badge]][colab-notebook]
 
@@ -45,7 +45,7 @@ And no, you do not really need Sparse Attention/Transformers here unless you wan
 
 GPT3 + RGA(RPR) = AWESOME
 
-If OpenAi's MuseNet and Google Piano Transformer could have a baby, that would be it :) 
+If OpenAi's MuseNet and Google's Piano Transformer could have a baby, that would be it :) 
 
 [![Open In Colab][colab-badge2]][colab-notebook2]
 
