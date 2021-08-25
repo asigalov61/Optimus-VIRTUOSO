@@ -41,7 +41,7 @@ And no, you do not really need Sparse Attention/Transformers here unless you wan
 
 ***
 
-### BEST OF BOTH WORLDS: Optimus VIRTUOSO: Relative Global Attention Edition
+### BEST OF BOTH WORLDS: Optimus-VIRTUOSO: Relative Global Attention Edition
 
 GPT3 + RGA(RPR) = AWESOME
 
