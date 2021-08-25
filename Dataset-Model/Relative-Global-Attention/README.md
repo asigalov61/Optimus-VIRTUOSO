@@ -1,10 +1,15 @@
 # SOTA Relative Global Attention Model
 
+[![Open In Colab][colab-badge2]][colab-notebook2]
+
+[colab-notebook2]: <https://colab.research.google.com/github/asigalov61/Optimus-VIRTUOSO/blob/main/Optimus_VIRTUOSO_Relative_Global_Attention_Edition.ipynb>
+[colab-badge2]: <https://colab.research.google.com/assets/colab-badge.svg>
+
 ***
 
 ## Trained to 0.027 Floss/0.993 acc for 2 epoch on Google Colab Tesla SXM2 GPU (~16 hours)
 
-## Final model size: 41.1 MB (43,171,840 bytes) [Compare with Google PT or OpenAI Musnet]
+## Final model size: 41.1 MB (43,171,840 bytes) [Compare with Google PT or OpenAI Musenet]
 
 ## Dataset: Endless Piano Carousel MIDI dataset (not included so download it or make sure to use random/custom priming)
 
