@@ -22,6 +22,7 @@ File: https://github.com/asigalov61/Optimus-VIRTUOSO/raw/main/Samples/Relative-G
 
 Stats are below:
 
+```
 ======================================================================
 Block number: 299
 Composition length so far: 306176 notes
@@ -93,3 +94,4 @@ pitch_range_sum | 95
 ticks_per_quarter | 500
 ======================================================================
 ======================================================================
+```
