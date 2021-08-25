@@ -1,10 +1,18 @@
 # Optimus-VIRTUOSO
 
-## GPT2/GPT3-based Multi-Instrumental MIDI Music AI implementation
+## "Music never allows falsehoods for even the deaf hear flat notes!" ---OV
 
 ***
 
-### Now featuring TMIDIX improved reproduction of the MuseNet multi-instrumental TXT encoding 
+<img width="512" src="https://github.com/asigalov61/Optimus-VIRTUOSO/raw/main/Artwork/Optimus_Virtuoso_Art%20(6).jpg">
+
+***
+
+## SOTA GPT3-based Multi-Instrumental MIDI Music AI Implementation
+
+### Now featuring TMIDIX improved reproduction of the MuseNet multi-instrumental TXT encoding
+
+***
 
 What are you waiting for?!? Try it out!!! :)
 
