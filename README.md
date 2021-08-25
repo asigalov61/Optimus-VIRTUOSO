@@ -54,6 +54,14 @@ If OpenAi's MuseNet and Google's Piano Transformer could have a baby, that would
 
 ***
 
+## Output Samples:
+
+### 🥰❤️🎁 Optimus-VIRTUOSO: RGA Edition SOTA Output Demo Sample 🎁❤️🥰
+
+NOTE: Do not forget to unmute the player below or you will not hear the music
+
+https://user-images.githubusercontent.com/56325539/130869548-ee1b90d9-0baa-4817-8d1b-ac314b34cd17.mp4
+
 ### SoundCloud:
 
 https://soundcloud.com/aleksandr-sigalov-61/sets/exclusive-preview-optimus-virtuoso
