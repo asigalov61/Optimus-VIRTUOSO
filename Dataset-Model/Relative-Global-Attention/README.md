@@ -15,7 +15,7 @@
 
 ***
 
-### NOTES: This is a one-short learner architecture and model, so the tests have confirmed that training for 2 epcochs is only detrimental to the results. At least with Music. This architecture either learns or it does not, so if you are not getting good results, it is always a great idea to thoroughly cehck the dataset...
+### NOTES: This is a one-short learner architecture and model, so the tests have confirmed that training for 2 epcochs is only detrimental to the results. At least with Music. This architecture either learns or it does not, so if you are not getting good results, it is always a great idea to thoroughly check the dataset...
 
 ***
 
