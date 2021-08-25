@@ -1,4 +1,10 @@
-# SOTA Relative Global Attention Model
+# 🥰❤️🎁 SOTA Relative Global Attention Model 🎁❤️🥰
+
+NOTE: Do not forget to unmute the player below or you will not hear the music
+
+https://user-images.githubusercontent.com/56325539/130869548-ee1b90d9-0baa-4817-8d1b-ac314b34cd17.mp4
+
+***
 
 [![Open In Colab][colab-badge2]][colab-notebook2]
 
