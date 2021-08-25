@@ -28,7 +28,7 @@ For SOTA, non-auto-regressive, token-based implementation see Optimus VIRTUOSO: 
 
 ***
 
-### ORIGINAL COMPOSITION: Optimus-VIRTUOSO Compound Music Composer with custom MIDI option
+### ORIGINAL MUSIC COMPOSITION: Optimus-VIRTUOSO Compound Music Composer with custom MIDI option
 
 This is basically an improved reproduction of OpenAI's MuseNet. With large enough dataset, you should get comparable(or better) results
 
