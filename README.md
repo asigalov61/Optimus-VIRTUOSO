@@ -14,23 +14,23 @@
 
 ***
 
-What are you waiting for?!? Try it out!!! :)
+### ORIGINAL BASE-LINE IMPLEMENTATION:
+
+This is an auto-regressive implementation (char-based approach) which has its benefits but also drawbacks
+However, this is the most interesting and fastest implementation because it allows to do many different things
+
+For SOTA, non-auto-regressive, token-based approach see Optimus VIRTUOSO: Relative Global Attention Edition below
 
 [![Open In Colab][colab-badge]][colab-notebook]
 
 [colab-notebook]: <https://colab.research.google.com/github/asigalov61/Optimus-VIRTUOSO/blob/main/Optimus_VIRTUOSO.ipynb>
 [colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
 
-This is an auto-regressive implementation (char-based approach) which has its benefits but also drawbacks.
-However, this is the most interesting and fastest implementation because it allows to do many different things.
-
-For non-auto-regressive token-based approach see Optimus VIRTUOSO RGA Edition below.
-
 ***
 
 ### ORIGINAL COMPOSITION: Optimus-VIRTUOSO Compound Music Composer with custom MIDI option
 
-This is basically an improved reproduction of OpenAI's MuseNet. With large enough dataset, you should get comparable(or better) results.
+This is basically an improved reproduction of OpenAI's MuseNet. With large enough dataset, you should get comparable(or better) results
 
 And no, you do not really need Sparse Attention/Transformers here unless you want to train on gigabytes of data
 
@@ -84,13 +84,13 @@ https://soundcloud.com/aleksandr-sigalov-61/sets/exclusive-preview-optimus-virtu
 
 Q) What Optimus-VIRTUOSO can do for me?
 
-A) Optimus-VIRTUOSO can virtuosly play you any MIDI music you will train it upon.
+A) Optimus-VIRTUOSO can virtuosly play you any MIDI music you will train it upon
 
 ***
 
 Q) What Optimus-VIRTUOSO can't do for me?
 
-A) Optimus-VIRTUOSO can't compose fully original music for you because it is a regular Music AI (not AGI) implementation.
+A) Optimus-VIRTUOSO can't compose fully original music for you because it is a regular Music AI (not AGI) implementation
 
 ***
 
