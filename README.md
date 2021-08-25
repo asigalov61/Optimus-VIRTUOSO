@@ -14,7 +14,7 @@
 
 ***
 
-### ORIGINAL BASE-LINE IMPLEMENTATION:
+### ORIGINAL PERFORMANCE BASE-LINE IMPLEMENTATION:
 
 This is an auto-regressive implementation (char-based approach) which has its benefits but also drawbacks
 However, this is the most interesting, flexible, and versatile implementation that allows to try many different things
