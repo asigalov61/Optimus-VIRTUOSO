@@ -92,6 +92,18 @@ A) Yes! Try Optimus-VIRTUOSO Composer! It can compose compound music for you, si
 
 ***
 
+Q) What are the possible useful practical applications for this technology?
+
+A) Great question! Here are the major ones in order of importance and ability:
+
+1) Music Performance: Think talented AI Music Protege or AI Music partner for a musician or a composer
+2) Music Composition: Think of it as an AI Music colloborator for musicians and composers
+3) Music Classification: This is most profitable and useful application at the moment, but this would be a rather simple and crude use of such great tech
+4) Music Exploration: This is also very interesting applicatio, especially if it would be somehow tied with the #1 and #2 above
+5) Many more other incredible uses, so definitely try Optimus VIRTUOSO or OpenAI's MuseNet...
+
+***
+
 #### Project Los Angeles
 
 #### Tegridy Code 2021
