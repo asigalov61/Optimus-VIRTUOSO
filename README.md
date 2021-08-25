@@ -62,6 +62,8 @@ NOTE: Do not forget to unmute the player below or you will not hear the music
 
 https://user-images.githubusercontent.com/56325539/130869548-ee1b90d9-0baa-4817-8d1b-ac314b34cd17.mp4
 
+[Click to download the whole thing as a MIDI (1.5 hours long performance)](https://github.com/asigalov61/Optimus-VIRTUOSO/raw/main/Samples/Relative-Global-Attention/Optimus-VIRTUOSO-RGA-Edition-Main-Sample.mid)
+
 ### SoundCloud:
 
 https://soundcloud.com/aleksandr-sigalov-61/sets/exclusive-preview-optimus-virtuoso
