@@ -112,6 +112,20 @@ A) Great question! Here are the major ones in order of importance and ability:
 
 ***
 
-#### Project Los Angeles
+## Citation
 
-#### Tegridy Code 2021
+```bibtex
+    @inproceedings{sigalov2021optimusvirtuoso,
+    title       = {Optimus VIRTUOSO: SOTA GPT3-based Multi-Instrumental MIDI Music AI Implementation},
+    author      = {Aleksandr Sigalov},
+    booktitle   = {GitHub},
+    year        = {2021},
+    url         = {https://github.com/asigalov61/Optimus-VIRTUOSO}
+}
+```
+
+***
+
+### Project Los Angeles
+
+### Tegridy Code 2021
