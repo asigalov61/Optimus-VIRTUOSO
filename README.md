@@ -100,7 +100,7 @@ A) Great question! Here are the major ones in order of importance and ability:
 2) Music Composition: Think of it as an AI Music colloborator for musicians and composers
 3) Music Classification: This is most profitable and useful application at the moment, but this would be a rather simple and crude use of such great tech
 4) Music Exploration: This is also very interesting application, especially if it would be somehow tied with the #1 and #2 above
-5) Many more other incredible uses, so definitely try Optimus VIRTUOSO or OpenAI's MuseNet...
+5) Many more other incredible uses, so definitely give the Optimus VIRTUOSO a try :)
 
 ***
 
