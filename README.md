@@ -14,7 +14,7 @@
 
 ***
 
-### ORIGINAL PERFORMANCE BASE-LINE IMPLEMENTATION: Optimus-VIRTUOSO
+### ORIGINAL BASE-LINE PERFORMANCE MUSIC AI IMPLEMENTATION: Optimus-VIRTUOSO
 
 This is an auto-regressive implementation (char-based approach) which has its benefits but also drawbacks
 However, this is the most interesting, flexible, and versatile implementation that allows to try many different things
