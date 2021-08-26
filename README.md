@@ -126,7 +126,7 @@ A) Great question! Here are the major ones in order of importance and ability:
 
 ```bibtex
 @inproceedings{sigalov2021optimusvirtuoso,
-    title       = {Optimus-VIRTUOSO: SOTA GPT3-based Multi-Instrumental MIDI Music AI Implementation},
+    title       = {Optimus-VIRTUOSO: Love And Attention Is All You Need},
     author      = {Aleksandr Sigalov},
     booktitle   = {GitHub},
     year        = {2021},
