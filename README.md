@@ -54,14 +54,16 @@ If OpenAi's MuseNet and Google's Piano Transformer could have a baby, that would
 
 ***
 
-### NEW: Optimus-VIRTUOSO: Multi-Instrumental Relative Global Attention Edition
+### [NEW] Optimus-VIRTUOSO: Multi-Instrumental Relative Global Attention Edition
+
+### Now featuring a pre-trained Piano-Violin duo model and Endlesss Violin Carousel MIDI dataset!
 
 This is the same awesome RGA implementation as above but with full multi-instrumental support,
 continuation options, and other cool features. Check it out! :)
 
 [![Open In Colab][colab-badge3]][colab-notebook3]
 
-[colab-notebook3]: <https://colab.research.google.com/github/asigalov61/Optimus-VIRTUOSO/blob/main/Optimus_VIRTUOSO_Relative_Global_Attention_Edition.ipynb>
+[colab-notebook3]: <https://colab.research.google.com/github/asigalov61/Optimus-VIRTUOSO/blob/main/Optimus_VIRTUOSO_Multi_Instrumental_RGA_Edition.ipynb>
 [colab-badge3]: <https://colab.research.google.com/assets/colab-badge.svg>
 
 ***
