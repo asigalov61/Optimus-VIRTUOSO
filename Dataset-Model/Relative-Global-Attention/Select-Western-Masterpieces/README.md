@@ -1,4 +1,4 @@
-# Delect Western POP Masterpieces OV Multi-Instrumental RGA Model
+# Select Western POP Masterpieces OV Multi-Instrumental RGA Model
 
 ***
 ``
