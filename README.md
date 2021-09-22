@@ -4,10 +4,6 @@
 
 ***
 
-<img width="512" src="https://github.com/asigalov61/Optimus-VIRTUOSO/raw/main/Artwork/Optimus_Virtuoso_Art%20(6).jpg">
-
-***
-
 ## [SOTA](https://github.com/asigalov61/Optimus-VIRTUOSO/tree/main/Dataset-Model/Relative-Global-Attention) GPT3-based Multi-Instrumental MIDI Music AI Implementation
 
 ### Now featuring TMIDIX improved reproduction of the MuseNet multi-instrumental TXT encoding
