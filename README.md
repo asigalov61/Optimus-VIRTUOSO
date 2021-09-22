@@ -135,12 +135,11 @@ A) Great question! Here are the major ones in order of importance and ability:
 ## Citation
 
 ```bibtex
-@inproceedings{sigalov2021optimusvirtuoso,
+@inproceedings{lev2021optimusvirtuoso,
     title       = {Optimus-VIRTUOSO},
     author      = {Aleksandr Lev},
     booktitle   = {GitHub},
     year        = {2021},
-    url         = {https://github.com/asigalov61/Optimus-VIRTUOSO}
 }
 ```
 
