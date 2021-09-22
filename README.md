@@ -140,8 +140,8 @@ A) Great question! Here are the major ones in order of importance and ability:
 
 ```bibtex
 @inproceedings{sigalov2021optimusvirtuoso,
-    title       = {Optimus-VIRTUOSO: Love And Attention Is All You Need},
-    author      = {Aleksandr Sigalov},
+    title       = {Optimus-VIRTUOSO},
+    author      = {Aleksandr Lev},
     booktitle   = {GitHub},
     year        = {2021},
     url         = {https://github.com/asigalov61/Optimus-VIRTUOSO}
