@@ -4,6 +4,10 @@
 
 ***
 
+# [DEPRECIATED in favor of Morpheus](https://github.com/asigalov61/Morpheus)
+
+***
+
 ## [SOTA](https://github.com/asigalov61/Optimus-VIRTUOSO/tree/main/Dataset-Model/Relative-Global-Attention) GPT3-based Multi-Instrumental MIDI Music AI Implementation
 
 ### Now featuring TMIDIX improved reproduction of the MuseNet multi-instrumental TXT encoding
